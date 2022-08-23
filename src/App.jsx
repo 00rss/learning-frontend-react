@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   const [dataApi, setdataApi] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:3001/api/notes")
+    fetch("api/notes")
       .then((res) =>
         res.status === 200
           ? res.json()
