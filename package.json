@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "push": "/bin/sh autoPushGitMessage.sh",
     "preview": "vite preview"
   },
   "dependencies": {
